@@ -1,0 +1,13 @@
+
+.hero-section {
+    background-image: url('/image03.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-image: url('/image_sumaho01.png');
+    }
+}
